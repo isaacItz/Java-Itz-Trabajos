@@ -1,6 +1,6 @@
 package modelo;
 import java.util.Scanner;
-public class Main {
+public class PrincipalMenu {
 
 	private static Scanner scanner;
 
@@ -27,8 +27,6 @@ public class Main {
 
 		switch (m) {
 		case 1:  num +="M";		break;
-		case 2:  num +="MM";		break;
-		
 		default:
 			break;
 		}
@@ -72,7 +70,7 @@ public class Main {
 		case 7:  num +="VII";	break;
 		case 8:  num +="VIII";	break;
 		case 9:  num +="IX";	break;
-		
+
 		default:
 			break;
 		}
